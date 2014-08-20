@@ -1,0 +1,27 @@
+{
+  "name": "webrtc-nodejs-server",
+  "version": "1.0.0",
+  "description": "Webrtc server in node.js by Daniel Dudas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:biskis/webrtc-nodejs-server.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webrtc"
+  ],
+  "author": "dani-dudas",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^1.0.4"
+  },
+  "engines": {
+    "node": "0.6.12",
+    "npm": ">= 1.0.0"
+  }
+}
